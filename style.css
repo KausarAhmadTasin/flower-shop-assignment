@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato;
+}
+
+/* Shared styles */
+.primary-btn {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border-style: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 52px;
+}
+
+.shared-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.shared-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    min-width: 594px;
+    min-height: 60px;
+    /* 166.667% */
+}
+
+/* header styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+    gap: 97px;
+}
+
+.header-container img {
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.header-content {
+    margin-top: 197px;
+    margin-left: 240px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+}
+
+.header-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+    margin-top: 32px;
+    /* 166.667% */
+}
+
+/* Featured are styels */
+
+.featured-section {
+    margin-top: 178px;
+}
+
+.flower-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.single-flower1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    position: relative;
+}
+
+.single-flower1 img {
+    position: absolute;
+    bottom: 0;
+    left: 75px;
+}
+
+.single-flower2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    position: relative;
+}
+
+.single-flower2 img {
+    position: absolute;
+    bottom: 40px;
+    left: 75px;
+
+}
+
+.single-flower3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    position: relative;
+}
+
+.single-flower3 img {
+    position: absolute;
+    bottom: 0px;
+    left: 75px;
+
+}
+
+.single-flower .flower-name {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
+
+
+
+
+/* delivery section style */
+
+.delivery-section {
+    min-width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 128px 240px;
+    padding: 76px 175px;
+
+}
+
+.delivery-section ul {
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.delivery-section p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 24px;
+    /* 145.833% */
+
+}
+
+/* deal section styles */
+.deal-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 400px;
+    gap: 185px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    align-items: center;
+}
+
+.deal-section h3 span {
+    color: #E55473;
+}
+
+.deal-content {
+    text-align: center;
+}
+
+/* instagram section styels */
+
+.instagram-section {
+    margin: 128px 240px;
+}
+
+.instagram-section .instagram-img {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+/* subscribe section styles */
+.subscribe-section {
+    background-image: url('Flower Asset/Rectangle 9.png');
+    padding-top: 120px;
+    width: 1440px;
+    height: 449px;
+    margin: 128px 240px;
+}
+
+.subscribe-section input {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    border: none;
+    margin-left: 285px;
+    margin-top: 0;
+    padding-left: 22px;
+    margin-right: 16px;
+}
+
+/* footer sectin style */
+.footer-content {
+    background: #111010;
+    text-align: center;
+    padding: 128px 650px;
+}
+
+.footer-content h2 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.flower-title {
+    color: #E55473;
+}
+
+.shop-title {
+    color: #fff;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px;
+    /* 166.667% */
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
